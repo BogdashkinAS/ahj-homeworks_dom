@@ -1,0 +1,19 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 620px;
+    margin: 0 auto;
+    list-style-type: none;
+    }
+    
+.square {
+    width: 20%;
+    height: 124px;
+    margin: 5px;
+    background-color: white;
+    border: 5px solid green;
+}
+
+.active {
+    background-image: url("../media/goblin.png");
+  }
